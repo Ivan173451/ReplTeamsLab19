@@ -1,0 +1,49 @@
+h2, h1, p{
+  text-align:center;
+}
+#htmlhover{
+  border:solid 1px black;
+}
+#htmlhover img{
+position:relative;
+  left:650px;
+  width:275px;
+  height:183px;
+}
+#changingimg{
+  position:absolute;
+  left:700px;
+  width:170;
+  height:140px;
+}
+.hovering{
+  position:relative;
+  left:100px;
+  top:150px;
+  width:139px;
+  height:139px;
+}
+#links{
+  position:relative;
+  background-color: rgb(173, 218, 240);
+  overflow: hidden;
+  width:400px;
+  left:570px;
+}
+#links a{
+  color: white;
+  float: left;
+  display: block;
+text-align: center;
+padding: 10px 10px;
+}
+#links a:hover{
+  background-color: white;
+  color: red;
+}
+
+body{
+  background-color:darksalmon;
+  color: black;
+}
+
